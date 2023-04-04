@@ -1,0 +1,17 @@
+name: deploy branch (prod)
+on:
+  workflow_dispatch:
+    inputs: {}
+  release:
+    types: [published]
+
+jobs:
+  setup-build-publish-deploy:
+    if: "!github.event.release.prerelease"
+    name: deploy prod
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: log
+        run: |
+          echo "deployed"
