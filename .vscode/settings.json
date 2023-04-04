@@ -1,0 +1,25 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.useTabStops": true,
+  "zenMode.hideTabs": false,
+  "workbench.editor.showTabs": true,
+  "git.mergeEditor": false,
+  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[mjml]": {
+    "editor.defaultFormatter": "mjmlio.vscode-mjml",
+    "files.insertFinalNewline": true
+  },
+  "cSpell.words": ["bodil", "instalments", "organisation"],
+  "css.lint.validProperties": ["composes"],
+  "css.lint.unknownAtRules": "ignore",
+  "codemetrics.luaconfiguration.ReturnStatement": 0,
+  "codemetrics.nodeconfiguration.ReturnStatement": 0
+}
