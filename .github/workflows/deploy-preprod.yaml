@@ -7,7 +7,7 @@ on:
 
 jobs:
   setup-build-publish-deploy:
-    if: "github.event.release.prerelease"
+    if: "!github.event.relese || github.event.release.prerelease"
     name: deploy pre-prod
     runs-on: ubuntu-latest
 
